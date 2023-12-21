@@ -1,0 +1,130 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.perfect-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li{
+    padding: 20px;
+    background: rgb(76, 92, 51);
+    color: white;
+    border: 1px dotted black;
+    position: relative;
+}
+
+.menu li::before{
+    content: "f09a";
+    font-weight: 400;
+    font-family: "Font Awesome 6 Brands";
+}
+
+.sub-menu{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    opacity: 0;
+    transition: 0.25s;
+    pointer-events: none;
+}
+
+.menu li:hover .sub-menu{
+    opacity: 1;
+}
+
+.sub-menu li{
+    transform: translateX(50%);
+}
+
+.menu li:hover.sub-menu li:nth-child(1){
+    animation: nhaymua 0.25s ease forwards;
+    animation-delay: 0s;
+    
+}
+.menu li:hover .sub-menu li:nth-child(2){
+    animation: nhaymua 0.25s ease forwards;
+    animation-delay: 0.1s;
+}
+.menu li:hover .sub-menu li:nth-child(3){
+    animation: nhaymua 0.25s ease forwards;
+    animation-delay: 0.2s;
+}
+
+
+
+@keyframes nhaymua {
+   0%{
+    transform: ;
+   }
+    100%{
+        transform: unset;
+    }
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.perfect-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li{
+    padding: 20px;
+    background: rgb(76, 92, 51);
+    color: white;
+    border: 1px dotted black;
+    position: relative;
+}
+
+.menu li::before{
+    content: "\f09a";
+    font-weight: 400;
+    font-family: "Font Awesome 6 Brands";
+}
+
+.sub-menu{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    opacity: 0;
+    transition: 0.25s;
+    pointer-events: none;
+}
+
+.menu li:hover .sub-menu{
+    opacity: 1;
+}
+
+.sub-menu li{
+    transform: translateX(50%);
+}
+
+.menu li:hover .sub-menu li:nth-child(1){
+    animation: nhaymua 0.25s ease forwards;
+    animation-delay: 0s;
+}
+.menu li:hover .sub-menu li:nth-child(2){
+    animation: nhaymua 0.25s ease forwards;
+    animation-delay: 0.1s;
+}
+.menu li:hover .sub-menu li:nth-child(3){
+    animation: nhaymua 0.25s ease forwards;
+    animation-delay: 0.2s;
+}
+
+
+
+@keyframes nhaymua {
+    100%{
+        transform: unset;
+    }
+}

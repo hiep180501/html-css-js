@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8492f;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px;
+}
+.ngonngu{
+    color: white;
+    border: none;
+    background-color: #f8492f;
+}
+.fa-brands{
+    color: white;
+    margin: 0 4px;
+}
+.item a{
+    color: white;
+    text-decoration: none;
+}
+.fa-solid{
+    
+    color: white;
+}
+.item :hover{
+    opacity: 0.4;
+}
+.layout{
+    
+}
+.logo{
+    display: flex;
+    background-color: #f8492f;
+  
+}
+.fa-bag-shopping{
+    font-size: 32px;
+}
+.seach{
+    flex: 1;
+}
+.seach-item{
+    background-color:  #f8492f;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;  
+}
